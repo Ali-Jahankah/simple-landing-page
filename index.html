@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ALI's Landing Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="header">
+        <nav id="nav-bar">
+            <div id="navDetails">
+                <ul>
+                    <li class="nav-links"><a href="#top">Home</a ></li>
+                    <li class="nav-links"><a href="#sale">Tickets</a></li>
+                    <li class="nav-links"><a href="#myProfile">My Profile</a></li>
+                    <li class="nav-links"><a href="#footer">Contact US</a></li>
+                </ul>
+            </div>
+            <div id="logo">
+                <img id="header-img" src="https://www.gigcity.ca/wp-content/uploads/2016/12/Idolatry.jpg" alt="logo">
+                <h1 id="siteName">\ Fast Ticket /</h1>
+            </div>
+            <div id="logDiv">
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                    <ul>
+                        <li class="loginLi">
+                            <label for="emailLog" id="emailLabel"> Email: <input type="email" id="email" name="emailLog" placeholder="Email Address"></label>
+                        </li>
+                        <li class="loginLi">
+                            <label for="passLog" id="passLabel"> Password: <input type="password" id="passLog" name="passLog" placeholder="Password" required></label>
+                        </li>
+                    </ul>
+                    <br>
+                    <input id="submit" type="submit" value="Login">
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="clear"></div>
+    <main>
+        <div id="choosing">
+            <div class="chooseCaption">
+                <form action="https://www.freecodecamp.com/email-submit" method="POST" id="regester">
+                    <h1>Regester Now!</h1>
+                    <ul>
+                        <li>
+                            <label for="emailR">Email Address: 
+                        <input type="email" name="emailR" id="emailR" placeholder="Email Address">
+                    </label>
+                        </li>
+                        <li>
+                            <label for="passR">Password: 
+                        <input type="password" name="passR" id="passR" placeholder="Password" required>
+                    </label>
+                        </li>
+                        <li>
+                            <label for="mobileR">Mobile: </label>
+                            <select name="mobileR" id="mobileR">
+                                <option value="1">England</option>
+                                <option value="2">Germany</option>
+                                <option value="3">Spain</option>
+                            </select>
+                            <input type="tel" name="mobileR" id="mobileR" placeholder="Mobile">
+                        </li>
+                        <li><button type="submit">Regester</button></li>
+                    </ul>
+                </form>
+                <h2 class="chooseTitle">Why Choosing US?</h2>
+                <div class="discount"><img class="chooseImg" src="https://i2.wp.com/goldentouchmassage2.com/wp-content/uploads/2019/04/DISCOUNT-MASSAGE-IN-PATONG-PHUKET.jpg?w=859&ssl=1" alt="logo" width="200px" height="200px">
+                    <p>Get %10 discount on yout First purchese!</p>
+                </div>
+                <div class="shipping"><img class="chooseImg" src="https://image.freepik.com/free-vector/fast-shipping-logo_10250-3115.jpg" alt="logo" width="200px" height="200px">
+                    <p>Next working day delivery!</p>
+                </div>
+                <div class="signature"><img class="chooseImg" src="https://image.freepik.com/free-vector/quill-signature-logo-design-inspiration_57043-204.jpg" alt="logo" width="200px" height="200px">
+                    <p>By shopping from us, Get your favourite band signature, too!</p>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <br>
+        <div id="sale">
+            <div class="saleF">
+                <div class="saleLogo"><img src="https://blog.ticketmaster.com/wp-content/uploads/Met_OutsideHQ_0324_HQ_Herring__Herring3000-768x1024-1.jpg" alt="Metallica" title="Metallica"></div>
+                <div class="saleCap">Metallica is an American heavy metal band. The band was formed in 1981 in Los Angeles by vocalist/guitarist James Hetfield and drummer Lars Ulrich, and has been based in San Francisco for most of its career.</div>
+                <div class="bookBtn"><button type="button">Book Now</button></div>
+            </div>
+            <div class="saleS">
+                <div class="saleLogo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/BehemothBAND.jpg/201px-BehemothBAND.jpg" alt="Behemoth" title="Behemoth"></div>
+                <div class="saleCap">Behemoth is a Polish extreme metal band from Gdańsk, formed in 1991. They are considered to have played an important role in establishing the Polish extreme metal underground.</div>
+                <div class="bookBtn"><button type="button">Book Now</button></div>
+            </div>
+            <div class="saleT">
+                <div class="saleLogo"><img src="https://www.therockpit.net/wp-content/uploads/2017/09/Belphegor-promo1.jpg" alt="Belphegor" title="Belphegor"></div>
+                <div class="saleCap">Belphegor is an Austrian extreme metal band from Salzburg. They originally formed in 1991 under the name Betrayer before changing their name in 1993. They are named after the demon Belphegor; their music has accordingly been called "diabolic
+                    death metal".</div>
+                <div class="bookBtn"><button type="button">Book Now</button></div>
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <div id="videoDiv">
+            <iframe id="video" width="50%" width="50%" src="https://www.youtube.com/embed/FTvQgbAQAz8" allowfullscreen></iframe>
+        </div>
+    </main>
+    <footer id="footer">
+        <p> designed by Ali </p>
+    </footer>
+
+</body>
+
+</html>

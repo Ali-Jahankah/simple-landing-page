@@ -1,0 +1,452 @@
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgb(243, 242, 242), rgb(41, 39, 39));
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(rgb(104, 8, 8), black);
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav {
+    width: 90%;
+    position: fixed;
+    background: linear-gradient(black 90%, rgba(223, 0, 0, 0.788));
+    margin: 0 auto;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+nav #navDetails ul li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#navDetails a {
+    color: white;
+}
+
+#navDetails {
+    width: 35%;
+    transition: all 2s;
+}
+
+#navDetails ul li {
+    margin-left: 5px;
+    padding: 40px 5px;
+}
+
+#logDiv {
+    width: 30%;
+    color: rgb(197, 246, 178);
+    font-size: 18px;
+}
+
+#logo {
+    width: 30%;
+    object-fit: cover;
+}
+
+#logo img {
+    width: 80%;
+    height: 105px;
+}
+
+#navDetails ul {
+    margin: 10px auto 0px;
+    text-align: center;
+}
+
+#logo img,
+#logo h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#logo h1 {
+    margin-right: 15%;
+}
+
+#navDetails ul li a:hover,
+#navDetails ul li:hover {
+    color: red;
+    transform: rotate(5deg);
+    background: rgba(70, 70, 70, 0.842);
+}
+
+#submit {
+    width: 30%;
+    padding: 8px;
+    background: linear-gradient(rgb(81, 243, 81), rgb(0, 160, 0));
+    color: black;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+#submit:hover {
+    background: linear-gradient(rgb(0, 160, 0), rgb(81, 243, 81));
+    cursor: pointer;
+}
+
+#email,
+#passLog {
+    border-radius: 2px;
+    outline: 0px;
+    padding: 5px;
+}
+
+.loginLi {
+    list-style: none;
+    margin: 8px auto 0px;
+    text-align: center;
+}
+
+#siteName {
+    color: white;
+    font-family: Tahoma;
+    text-shadow: 2px 4px 4px red;
+}
+
+.clear {
+    clear: both;
+}
+
+#choosing {
+    width: 96%;
+    background: url('http://s3.amazonaws.com/quietus_production/images/articles/14452/Behemoth2013d_1391985013_crop_550x367.jpg') fixed no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 146px auto 10px;
+    height: auto;
+}
+
+.chooseCaption {
+    background: rgba(0, 0, 0, 0.801);
+    padding: 10px;
+}
+
+.chooseImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.chooseCaption p {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+.chooseTitle {
+    font-weight: 800;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.discount,
+.shipping,
+.signature {
+    display: flex;
+    align-items: center;
+}
+
+#sale {
+    width: 100%;
+    background: linear-gradient(black, rgb(121, 3, 3));
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.saleF,
+.saleS,
+.saleT {
+    width: 30%;
+    background: linear-gradient(black, gray);
+}
+
+.saleLogo {
+    width: 100%;
+    height: 250px;
+}
+
+.saleLogo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.saleCap {
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+    border-bottom: 2px solid rgb(155, 11, 11);
+    border-top: 2px solid rgb(155, 11, 11);
+    overflow: auto;
+}
+
+.bookBtn button {
+    padding: 10px;
+    background: linear-gradient(rgb(28, 255, 28), rgb(5, 97, 5));
+    border-radius: 10%;
+    margin: 5px auto 15px;
+    cursor: pointer;
+    transition: ease-in .5s;
+}
+
+.bookBtn button:hover {
+    background: linear-gradient(rgb(5, 97, 5), rgb(28, 255, 28));
+    box-shadow: 5px 0px 8px black;
+    transform: rotate(360deg);
+}
+
+#regester {
+    width: 28%;
+    border: 2px solid rgb(167, 0, 0);
+    background: rgba(0, 0, 0, 0.644);
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: absolute;
+    top: 300px;
+    right: 120px;
+    overflow: auto;
+}
+
+#regester input,
+#regester button {
+    padding: 10px;
+    border-radius: 5%;
+    background: rgb(46, 0, 0);
+    color: white;
+    border: 1px solid white;
+}
+
+#regester ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#regester button {
+    background: linear-gradient(red, rgb(63, 0, 0));
+    margin-bottom: 10px;
+}
+
+#regester button:hover {
+    background: rgb(93, 0, 0);
+    color: white;
+}
+
+#regester h1 {
+    color: white;
+    text-shadow: 2px 4px 8px red;
+}
+
+footer p {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+#videoDiv {
+    margin: 10px auto;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgb(104, 8, 8), black);
+}
+
+footer {
+    background: linear-gradient(90deg, black, rgb(141, 0, 0));
+}
+
+@media screen and ( min-width:481px)and (max-width:720px) {
+    nav #navDetails ul li {
+        font-size: 12px;
+        font-weight: 400;
+        display: inline-block;
+        padding: 10px 0px;
+    }
+    nav {
+        width: 100%;
+        position: inherit;
+    }
+    #choosing {
+        margin: 0px;
+    }
+    #navDetails ul {
+        margin-left: 2px;
+        margin-top: 30px;
+    }
+    #navDetails {
+        width: 35%;
+    }
+    #logDiv {
+        width: 30%;
+        font-size: 10px;
+        margin: auto 0px;
+    }
+    #logo {
+        width: 30%;
+        object-fit: cover;
+    }
+    #logo img {
+        width: 50%;
+        height: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+    #navDetails ul {
+        margin: 2px auto 0px;
+    }
+    #submit {
+        width: 30%;
+        padding: 3px;
+        font-size: 10px;
+    }
+    #email,
+    #passLog {
+        padding: 2px;
+        width: 60%;
+        font-size: 10px;
+    }
+    .loginLi {
+        margin-top: 7px;
+    }
+    #logo h1 {
+        font-size: 15px;
+        font-weight: 700;
+        margin: 0 auto;
+    }
+    #regester {
+        position: inherit;
+        width: 100%;
+    }
+    #choosing h2 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .chooseImg {
+        width: 70px;
+        height: 70px;
+    }
+    .chooseCaption p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .saleCap {
+        font-size: 10px;
+    }
+    footer p {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .saleLogo {
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav #navDetails ul li {
+        font-size: 10px;
+        font-weight: 400;
+        display: block;
+        margin-left: 2px;
+    }
+    #navDetails ul li {
+        margin-left: 2px;
+        padding: 10px 2px;
+    }
+    #logDiv {
+        width: 30%;
+        font-size: 12px;
+    }
+    #logo {
+        width: 30%;
+        object-fit: cover;
+    }
+    #logo img {
+        width: 90%;
+        height: 80px;
+    }
+    #navDetails ul {
+        margin: 2px auto 0px;
+    }
+    #submit {
+        width: 60%;
+        padding: 3px;
+        font-size: 10px;
+    }
+    #email,
+    #passLog {
+        padding: 2px;
+        width: 70%;
+        font-size: 10px;
+    }
+    .loginLi {
+        margin: 3px auto 0px;
+    }
+    #logo h1 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    #regester {
+        position: inherit;
+        width: 100%;
+    }
+    #choosing h2 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .chooseImg {
+        width: 70px;
+        height: 70px;
+    }
+    .chooseCaption p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .saleCap {
+        font-size: 11px;
+        font-weight: 700;
+    }
+    footer p {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .saleLogo {
+        height: 100px;
+    }
+}
